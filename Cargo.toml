@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+license = "MIT"
+name = "nu_visualize"
+version = "0.0.1"
+
+[[bin]]
+name = "nu_visualize"
+
+[dependencies]
+nu-plugin = "0.76.0"
+nu-protocol = { version = "0.76.0", features = ["plugin"] }
+
